@@ -34,7 +34,11 @@ $('#loginForm').validate({
             });
         },
         error : function() {
-          alert('Error')
+            swal({
+                title: "Something went wrong!",
+                icon: "error",
+                button: "Try again",
+            });
         }
         
       });
