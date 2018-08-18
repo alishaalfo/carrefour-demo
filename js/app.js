@@ -19,7 +19,7 @@ $('#loginForm').validate({
     const username =$("#username").val();
     const password =$("#password").val(); 
         $.ajax({
-          url: "users.php",
+          url: "users.html",
           type: "POST",
           data: {
             username:username,
